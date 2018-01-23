@@ -1,0 +1,1126 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Cockpit </title>
+	    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="dashboard.css">
+        <link rel="stylesheet" type="text/css" href="css/vendor list.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- <link href="dashboard.css" type="text/css"> -->
+        <!-- dashboard.css -->
+
+        
+    </head>
+
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <div class="logo">
+                    <a hef="home.html"><img src="image/logo.png" alt="merkery_logo" class="hidden-xs hidden-sm">
+                        <img src="image/circle-logo.png" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
+                    </a>
+                </div>
+                <div class="navi">
+                    <ul>
+                        <li style="display: block; font-size: 15px; font-weight: 500; padding: 14px 20px; text-decoration: none;color:white;"><img class="" src="image/dashboard.png" style=" padding-right:14px ;"><span class="hidden-xs hidden-sm" >DASHBOARD</span></a></li>
+                        <li><a href="#"><i class="fa fa-files-o" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Analytics</span></a></li>
+                        <li><a href="#"><i class="fa fa-bullhorn" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Communication</span></a></li>
+                        <li><a href="#"><i class="fa fa-weixin" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Reported Issue</span></a></li>
+                        <li style="display: block; font-size: 15px; font-weight: 500; padding: 14px 20px; text-decoration: none;color:white;"><i class="fa fa-gear" aria-hidden="true" style="color:#ff7044;font-size:26px; "></i><span class="hidden-xs hidden-sm" >SERVICES</span></a></li>
+
+                        <li class="active"><a href="#" ><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm" >Book</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm">Assignment/Essay</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm" >Hello Class</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm">Query Box</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm" >Story Board</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm">Cockpit Career Institute</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm" >University Hub</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle" aria-hidden="true" style="font-size:12px;"></i><span class="hidden-xs hidden-sm">Campus Shop</span></a></li>
+                    
+                    
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas" data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                            <div class="search hidden-xs hidden-sm">
+                                <input type="text" placeholder="Search" id="search" >
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="header-rightside">
+                                <ul class="list-inline header-top pull-right">
+                                   
+                                    
+                                    <li style="padding-left:10px">
+                                        <a href="#" class="icon-info">
+                                            <i class="fa fa-bell" aria-hidden="true" style="color: #ff7044;"></i>
+                                            <span class="label label-primary">3</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true" ></i></a></li>
+                                    <li class="dropdown"  style="padding-left:10px">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:black ">Robert Albert <img src="image/user.png" alt="user" width="60px" height="50px">
+                                            <!-- <b class="caret"></b>--></a> 
+                                        <!-- <ul class="dropdown-menu">
+                                            <li>
+                                                <div class="navbar-content">
+                                                    <span>JS Krishna</span>
+                                                    <p class="text-muted small">
+                                                        me@jskrishna.com
+                                                    </p>
+                                                    <div class="divider">
+                                                    </div>
+                                                    <a href="#" class="view btn-sm active">View Profile</a>
+                                                </div>
+                                            </li>
+                                        </ul> -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+                <div class="user-dashboard">
+                    <h1 style="font-size:20px;"><span><i class="fa fa-circle" aria-hidden="true" style="font-size:20px; color:black; padding-right:5px; padding-top:10px;"></i></span><span class="hidden-xs hidden-sm" style="color:black; font-weight:bold;">Book</span>
+</h1>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 gutter">
+                            <ul class="nav nav-pills" style="display:inline-block;">
+                                <li ><a data-toggle="pill" href="#home">Book Analytics</a></li>
+                                <li><a data-toggle="pill" href="#menu1">Book List</a></li>
+                                <li><a data-toggle="pill" href="#menu2">Book Owner List</a></li>
+                                <li><a data-toggle="pill" href="#menu3">Vendor List</a></li>
+                                <li  class="active"><a data-toggle="pill" href="#menu4">New Uploads</a></li>
+                                <!-- <li style=" padding-left:0%;"></li> -->
+
+                            </ul>
+                            <button class="btn btn-warning btn-md " style="display:inline-block;border-radius:0px;float: right;">Add New</button>
+                       
+                            <hr style="margin-top: -2px;border-top:2px solid #e0e0e0;">
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in ">
+                                <!-- <h3>Book Analytics</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                             Book Anaylist satrt here  -->
+
+                                        <div class="row" style="padding-bottom: 3%;">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                       <!-- <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"> -->
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6" >
+                                                <h2 style="color:#ff7044">৳ 1500</h2>
+                                                <p style="color:ababab">Total Transactions</p>
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                <h2 style="color:#ff7044">125</h2>
+                                                <p style="color:ababab">Total Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                <h2 style="color:#ff7044">50</h2>
+                                                <p style="color:ababab">Total Book Owners</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                <h2 style="color:#ff7044">12</h2>
+                                                <p style="color:ababab">Total Vendors</p>
+                                       
+                                            </div>
+                                            
+                                        <!-- </div> -->
+                                    </div>
+                                     <!-- <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="text-align:right;">
+                                        <!-- <div class="dropdown" style="margin-top:15%; padding-right:1%;">
+                                            <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" style="border-radius:0px;">New Books
+                                            <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                            <li><a href="#">book1</a></li>
+                                            <li><a href="#">book2</a></li>
+                                            <li><a href="#">book3</a></li>
+                                            </ul>
+                                        </div> 
+                                    </div>  -->
+                                </div>
+
+
+
+
+
+                            <!-- Vendor list end here -->
+
+
+
+
+                                <div class="row"> <!-- Button -->
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
+                                        <h3> Book Overview</h3>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+                                        <h6> This Week <span style="color:#ff7044">৳800</span></h6>
+                                    </div>
+                                </div>
+                            <!-- Table start here -->
+                            <div class="row"> <!-- row Div start here --> 
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <!-- colum Div start here --> 
+                                     
+                                   
+                                    <canvas id="bookoverviewchart" width="100%" height="30%"></canvas> <!-- Here barchart is the name of script id -->
+
+
+
+                                </div> <!-- Column div end here -->
+                            </div> <!-- Row div end here -->
+
+                            <br><br><br>
+                            <!-- New Book Chart -->
+                               <div class="row"> <!-- Button -->
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
+                                                <h5> Book Overview</h5>
+                                                 <p> This Week <span style="color:#ff7044">৳800</span></p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="row"> <!-- row Div start here --> 
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <!-- colum Div start here --> 
+                                                
+                                            
+                                                <canvas id="newbookchart" width="100%" height="60%"></canvas> <!-- Here barchart is the name of script id -->
+
+
+
+                                            </div> <!-- Column div end here -->
+                                        </div> <!-- Row div end here -->
+
+                                    </div> <!-- New Book Chart end here -->
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 "> <!-- old book start here -->
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
+                                                <h5> Book Overview</h5>
+                                                <p> This Week <span style="color:#ff7044">৳800</span></p>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+                                                
+                                            </div>
+                                        </div>
+                                         <div class="row"> <!-- row Div start here --> 
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <!-- colum Div start here --> 
+                                                
+                                            
+                                                <canvas id="oldbookchart" width="100%" height="60%"></canvas> <!-- Here barchart is the name of script id -->
+
+
+
+                                            </div> <!-- Column div end here -->
+                                        </div>  
+
+                                    </div> <!-- Old book end here -->
+                                </div>
+                            <!-- Table start here -->
+                            <div class="row"> <!-- row Div start here --> 
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <!-- colum Div start here --> 
+                                     
+                                   
+                                     <!-- Here barchart is the name of script id -->
+
+
+
+                                </div> <!-- Column div end here -->
+                            </div> <!-- Row div end here -->
+
+
+                            <!-- New book chart end -->
+
+
+                            <!-- Table end here -->
+                            
+                            
+                            <!-- Book Analysit end here -->
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <!-- <h3>Book List</h3>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+                                    <div class="row" style="padding-bottom: 3%;">
+                                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                                       <!-- <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"> -->
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6" >
+                                                <h2 style="color:#ff7044">125</h2>
+                                                <p style="color:ababab">Total Books</p>
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">75</h2>
+                                                <p style="color:ababab">New Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">50</h2>
+                                                <p style="color:ababab">Old Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                <h2 style="color:#ff7044">12</h2>
+                                                <p style="color:ababab">Total Vendors</p>
+                                       
+                                            </div>
+                                            
+                                        <!-- </div> -->
+                                    </div>
+                                 
+                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="text-align:right;">
+                                        <div class="dropdown" style="margin-top:15%; padding-right:1%;">
+                                            <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" style="border-radius:0px;">New Books
+                                            <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                            <li><a href="#">book1</a></li>
+                                            <li><a href="#">book2</a></li>
+                                            <li><a href="#">book3</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+            <hr>   
+
+
+                            <!-- Vendor list end here -->
+
+
+
+
+
+                            <!-- Table start here -->
+                            <div class="row">
+                               
+                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 books_cover-ovi">
+                                      <!--book list 1st end here  -->
+
+                                     <!--book list 1st end here  -->
+
+
+
+
+
+                                   
+
+
+
+                                </div> <!-- First colum end here -->
+
+                                
+                            </div> <!-- book Row end here -->
+
+
+
+
+
+                            <div class="row">
+                               
+                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 books_cover-ovi">
+                                    <div class="col-md-3 col-lg-2 col-sm-4 col-xs-6 books-dashboard-ovi margin-bottom-bk">  <!--book list 1st start here -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 zero-dashboard-ovi check-dashboard-ovi">
+                                            <div class="com-md-12 trendy-cover-ovi">
+                                                <img src="image/book budo.png">
+                                            </div>
+                                            <div class="col-md-12 dashboard-details-ovi">
+                                                <h4>Parrot Design Week </h4>
+                                                <p style="color:ababab">22 Times Sold</p>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 check" style="display:inline-block;">
+                                                        <p class="colorcoral" style="margin: 0;">Price: $125</p>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="display:inline-block;">
+                                                        <label class="switch" >
+                                                            <input type="checkbox" checked>
+                                                            <span class="slider round"></span>
+                                                        </label>
+                                                       <a href="#" style="position:absolute; "> <i class="fa fa-minus-circle" aria-hidden="true" style="color:red;font-size: 18px;margin-left: -77%;"></i> </a>
+
+                                                     </div>
+                                                </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>   <!--book list 1st end here  -->
+
+                                    <div class="col-md-3 col-lg-2 col-sm-4 col-xs-6 books-dashboard-ovi margin-bottom-bk">  <!--book list 1st start here -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 zero-dashboard-ovi check-dashboard-ovi">
+                                            <div class="com-md-12 trendy-cover-ovi">
+                                                <img src="image/book budo.png">
+                                            </div>
+                                            <div class="col-md-12 dashboard-details-ovi">
+                                                <h4>Parrot Design Week </h4>
+                                                <p style="color:ababab">22 Times Sold</p>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 check" style="display:inline-block;">
+                                                        <p class="colorcoral" style="margin: 0;">Price: $125</p>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="display:inline-block;">
+                                                        <label class="switch" >
+                                                            <input type="checkbox" checked>
+                                                            <span class="slider round"></span>
+                                                        </label>
+                                                       <a href="#" style="position:absolute; "> <i class="fa fa-minus-circle" aria-hidden="true" style="color:red;font-size: 18px;margin-left: -77%; "></i> </a>
+
+                                                     </div>
+                                                </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>  <!--book list 1st end here  -->
+
+
+                                    <div class="col-md-3 col-lg-2 col-sm-4 col-xs-6 books-dashboard-ovi margin-bottom-bk">  <!--book list 1st start here -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 zero-dashboard-ovi check-dashboard-ovi">
+                                            <div class="com-md-12 trendy-cover-ovi">
+                                                <img src="image/book budo.png">
+                                            </div>
+                                            <div class="col-md-12 dashboard-details-ovi">
+                                                <h4>Parrot Design Week </h4>
+                                                <p style="color:ababab">22 Times Sold</p>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 check" style="display:inline-block;">
+                                                        <p class="colorcoral" style="margin: 0;">Price: $125</p>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="display:inline-block;">
+                                                        <label class="switch" >
+                                                            <input type="checkbox" checked>
+                                                            <span class="slider round"></span>
+                                                        </label>
+                                                       <a href="#" style="position:absolute; "> <i class="fa fa-minus-circle" aria-hidden="true" style="color:red;font-size: 18px;margin-left: -77%; "></i> </a>
+
+                                                     </div>
+                                                </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>  <!--book list 1st end here  -->
+
+
+
+                                    <div class="col-md-3 col-lg-2 col-sm-4 col-xs-6 books-dashboard-ovi margin-bottom-bk">  <!--book list 1st start here -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 zero-dashboard-ovi check-dashboard-ovi">
+                                            <div class="com-md-12 trendy-cover-ovi">
+                                                <img src="image/book budo.png">
+                                            </div>
+                                            <div class="col-md-12 dashboard-details-ovi">
+                                                <h4>Parrot Design Week </h4>
+                                                <p style="color:ababab">22 Times Sold</p>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 check" style="display:inline-block;">
+                                                        <p class="colorcoral" style="margin: 0;">Price: $125</p>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="display:inline-block;">
+                                                        <label class="switch" >
+                                                            <input type="checkbox" checked>
+                                                            <span class="slider round"></span>
+                                                        </label>
+                                                       <a href="#" style="position:absolute; "> <i class="fa fa-minus-circle" aria-hidden="true" style="color:red;font-size: 18px;margin-left: -77%; "></i> </a>
+
+                                                     </div>
+                                                </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div> <!--book list 1st end here  -->
+
+                                     <div class="col-md-3 col-lg-2 col-sm-4 col-xs-6 books-dashboard-ovi margin-bottom-bk">  <!--book list 1st start here -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 zero-dashboard-ovi check-dashboard-ovi">
+                                            <div class="com-md-12 trendy-cover-ovi">
+                                                <img src="image/book budo.png">
+                                            </div>
+                                            <div class="col-md-12 dashboard-details-ovi">
+                                                <h4>Parrot Design Week </h4>
+                                                <p style="color:ababab">22 Times Sold</p>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 check" style="display:inline-block;">
+                                                        <p class="colorcoral" style="margin: 0;">Price: $125</p>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="display:inline-block;">
+                                                        <label class="switch" >
+                                                            <input type="checkbox" checked>
+                                                            <span class="slider round"></span>
+                                                        </label>
+                                                       <a href="#" style="position:absolute; "> <i class="fa fa-minus-circle" aria-hidden="true" style="color:red;font-size: 18px;margin-left: -77%; "></i> </a>
+
+                                                     </div>
+                                                </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div> <!--book list 1st end here  -->
+
+                                     <div class="col-md-3 col-lg-2 col-sm-4 col-xs-6 books-dashboard-ovi margin-bottom-bk">  <!--book list 1st start here -->
+                                        <div class="col-md-12 col-lg-12 col-sm-12 zero-dashboard-ovi check-dashboard-ovi">
+                                            <div class="com-md-12 trendy-cover-ovi">
+                                                <img src="image/book budo.png">
+                                            </div>
+                                            <div class="col-md-12 dashboard-details-ovi">
+                                                <h4>Parrot Design Week </h4>
+                                                <p style="color:ababab">22 Times Sold</p>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 check" style="display:inline-block;">
+                                                        <p class="colorcoral" style="margin: 0;">Price: $125</p>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="display:inline-block;">
+                                                        <label class="switch" >
+                                                            <input type="checkbox" checked>
+                                                            <span class="slider round"></span>
+                                                        </label>
+                                                       <a href="#" style="position:absolute; "> <i class="fa fa-minus-circle" aria-hidden="true" style="color:red;font-size: 18px;margin-left: -77%; "></i> </a>
+
+                                                     </div>
+                                                </div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div> <!--book list 1st end here  -->
+
+                                    <!--book list 1st end here  -->
+
+
+                                </div> <!-- First colum end here -->
+
+                                
+                            </div> <!-- book Row end here -->
+
+
+                            
+                        </div> <!-- Menu1 End here -->
+
+                             <div id="menu2" class="tab-pane fade">
+                                <!-- <h3>Menu 3</h3>
+                                
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                             Vendor list satrt here  </p> -->
+
+                                           <div class="row" style="padding-bottom: 3%;">
+                                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                                       <!-- <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"> -->
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6" >
+                                                <h2 style="color:#ff7044">15</h2>
+                                                <p style="color:ababab">Total Vendors</p>
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">75</h2>
+                                                <p style="color:ababab">New Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">50</h2>
+                                                <p style="color:ababab">Old Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                <h2 style="color:#ff7044">12</h2>
+                                                <p style="color:ababab">Total Vendors</p>
+                                       
+                                            </div>
+                                            
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="text-align:right;">
+                                        <div class="dropdown" style="margin-top:15%; padding-right:1%;">
+                                            <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" style="border-radius:0px;">New Books
+                                            <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                            <li><a href="#">book1</a></li>
+                                            <li><a href="#">book2</a></li>
+                                            <li><a href="#">book3</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            <!-- Vendor list end here -->
+
+
+
+
+
+                            <!-- Table start here -->
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>Owner Name</th>
+                                                <th>Company Name</th>
+                                                <th>Email Address</th>
+                                                <th>Contact Number</th>
+                                                <th>Address</th>
+                                                <th>Books</th>
+                                                <th>Action</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+                                            
+                                            </tbody>
+                                        </table>
+                                </div>
+                            </div>
+
+
+                            <!-- Table end here -->
+                            <!-- Pagination -->
+                            <div class="row text-right">
+                                <ul class="pagination pagination-sm">
+                                        <li><a href="#" style="padding:8px; background-color:transparent; color:black"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" >1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#" style="padding:8px; background-color:transparent; color:black"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Pagination End -->
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+                            <div id="menu3" class="tab-pane fade"> <!-- Book Owner LIst Start here -->
+                                <!-- <h3>Book Owner List</h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p> -->
+                                <div class="row" style="padding-bottom: 3%;">
+                                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                                       <!-- <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"> -->
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6" >
+                                                <h2 style="color:#ff7044">15</h2>
+                                                <p style="color:ababab">Total Vendors</p>
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">75</h2>
+                                                <p style="color:ababab">New Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">50</h2>
+                                                <p style="color:ababab">Old Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                <h2 style="color:#ff7044">12</h2>
+                                                <p style="color:ababab">Total Vendors</p>
+                                       
+                                            </div>
+                                            
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="text-align:right;">
+                                        <div class="dropdown" style="margin-top:15%; padding-right:1%;">
+                                            <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" style="border-radius:0px;">New Books
+                                            <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                            <li><a href="#">book1</a></li>
+                                            <li><a href="#">book2</a></li>
+                                            <li><a href="#">book3</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            <!-- Vendor list end here -->
+
+
+
+
+
+                            <!-- Table start here -->
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>Owner Name</th>
+                                                <th>Company Name</th>
+                                                <th>Email Address</th>
+                                                <th>Contact Number</th>
+                                                <th>Address</th>
+                                                <th>Books</th>
+                                                <th>Action</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> John</p></td>
+                                                <td>Doe</td>
+                                                <td>john@example.com</td>
+                                                <td> 01712121212</td>
+                                                <td><p style="color:#01ba4f;"><span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                </span> 2.5 Km, Dhaka, Bangladesh</p></td>
+                                            
+                                                <td style="color:#ff7044">5</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a>
+                                                </td>
+
+
+                                            </tr>
+                                            
+                                            </tbody>
+                                        </table>
+                                </div>
+                            </div>
+
+
+                            <!-- Table end here -->
+                            <!-- Pagination -->
+                            <div class="row text-right">
+                                <ul class="pagination pagination-sm">
+                                        <li><a href="#" style="padding:8px; background-color:transparent; color:black"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" >1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#" style="padding:8px; background-color:transparent; color:black"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Pagination End -->
+                            
+                            
+                            
+                            
+                            
+                            </div> <!-- Book Owner LIst end here -->
+
+
+                           
+                            <div id="menu4" class="tab-pane fade in active">
+                                <!-- <h3>Menu 3</h3>
+                                
+                                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                             Vendor list satrt here  -->
+
+                                <div class="row" style="padding-bottom: 3%;">
+                                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                                       <!-- <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"> -->
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6" >
+                                                <h2 style="color:#ff7044">52</h2>
+                                                <p style="color:ababab">Total Uploads</p>
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">75</h2>
+                                                <p style="color:ababab">Upload Todays</p>
+                                       
+                                            </div>
+
+                                            <!-- <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                                                <h2 style="color:#ff7044">50</h2>
+                                                <p style="color:ababab">Old Books</p>
+                                       
+                                            </div>
+
+                                            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+                                                <h2 style="color:#ff7044">12</h2>
+                                                <p style="color:ababab">Total Vendors</p>
+                                       
+                                            </div> -->
+                                            
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="text-align:right;">
+                                        <!-- <div class="dropdown" style="margin-top:15%; padding-right:1%;">
+                                            <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown" style="border-radius:0px;">New Books
+                                            <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                            <li><a href="#">book1</a></li>
+                                            <li><a href="#">book2</a></li>
+                                            <li><a href="#">book3</a></li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+
+
+
+
+
+                            <!-- Vendor list end here -->
+
+
+
+
+
+                            <!-- Table start here -->
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                      <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th>Book Image</th>
+                                                <th>Book Name</th>
+                                                <th>Author Name</th>
+                                                <th>Uploader</th>
+                                                <th>Status</th>
+                                                <th>Uploaded at</th>
+                                                <th>Action</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td><img src="image/book.PNG" class="img-rounded" alt="Cinque Terre" height="100px" width="80px"></td>
+                                                <td>Sir, Jonathan lve </td>
+                                                <td>Doe</td>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> Andrew Gomes</p></td>
+                                                <td>Used</td>
+                                                <td>2 Hours ago</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a> <a href="#"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 23px; padding:2%;"></i>
+</a>
+                                                </td>
+
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><img src="image/book.PNG" class="img-rounded" alt="Cinque Terre" height="100px" width="80px"></td>
+                                                <td>Sir, Jonathan lve </td>
+                                                <td>Doe</td>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> Andrew Gomes</p></td>
+                                                <td>Used</td>
+                                                <td>2 Hours ago</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a> <a href="#"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 23px; padding:2%;"></i>
+</a>
+                                                </td>
+
+
+                                            </tr>
+
+                                             <tr>
+                                                <td><img src="image/book.PNG" class="img-rounded" alt="Cinque Terre" height="100px" width="80px"></td>
+                                                <td>Sir, Jonathan lve </td>
+                                                <td>Doe</td>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> Andrew Gomes</p></td>
+                                                <td>Used</td>
+                                                <td>2 Hours ago</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a> <a href="#"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 23px; padding:2%;"></i>
+</a>
+                                                </td>
+
+
+                                            </tr>
+
+                                             <tr>
+                                                <td><img src="image/book.PNG" class="img-rounded" alt="Cinque Terre" height="100px" width="80px"></td>
+                                                <td>Sir, Jonathan lve </td>
+                                                <td>Doe</td>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> Andrew Gomes</p></td>
+                                                <td>Used</td>
+                                                <td>2 Hours ago</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a> <a href="#"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 23px; padding:2%;"></i>
+</a>
+                                                </td>
+
+
+                                            </tr>
+
+                                             <tr>
+                                                <td><img src="image/book.PNG" class="img-rounded" alt="Cinque Terre" height="100px" width="80px"></td>
+                                                <td>Sir, Jonathan lve </td>
+                                                <td>Doe</td>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> Andrew Gomes</p></td>
+                                                <td>Used</td>
+                                                <td>2 Hours ago</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a> <a href="#"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 23px; padding:2%;"></i>
+</a>
+                                                </td>
+
+
+                                            </tr>
+
+                                             <tr>
+                                                <td><img src="image/book.PNG" class="img-rounded" alt="Cinque Terre" height="100px" width="80px"></td>
+                                                <td>Sir, Jonathan lve </td>
+                                                <td>Doe</td>
+                                                <td><p style="color:#01ba4f;"><img src="image/cinqueterre.jpg" class="img-circle" alt="Cinque Terre" height="20px" width="20px"> Andrew Gomes</p></td>
+                                                <td>Used</td>
+                                                <td>2 Hours ago</td>
+                                                <td> <a href="#"><img src="image/view.png" class="img-circle" alt="view" height="15px" width="20px"></a> <a href="#"><img src="image/cancel.png" class="img-circle" alt="Cancel" height="20px" width="20px"> </a> <a href="#"><i class="fa fa-check-circle" aria-hidden="true" style="font-size: 23px; padding:2%;"></i>
+</a>
+                                                </td>
+
+
+                                            </tr>
+                                            
+                                            </tbody>
+                                        </table>
+                                </div>
+                            </div>
+
+
+                            <!-- Table end here -->
+                            <!-- Pagination -->
+                            <div class="row text-right">
+                                <ul class="pagination pagination-sm">
+                                        <li><a href="#" style="padding:8px; background-color:transparent; color:black"><i class="fa fa-caret-left" aria-hidden="true"></i></a></li>
+                                        <li><a href="#" >1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#" style="padding:8px; background-color:transparent; color:black"><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Pagination End -->
+
+                            <!-- If you want more content it will after that portion within dashboard page -->
+
+
+
+
+                            
+
+                            <!-- If you want more content it will must be before that portion within dashboard page -->
+                            </div>
+                        </div>
+                           
+                        </div>
+                      
+
+
+
+
+                            
+
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- page total content end here  -->
+
+
+     <!-- Chat.js Script -->
+        <script src="Chart.js/Chart.bundle.js"></script>
+        <script src="Chart.js/Chart.bundle.min.js"></script>
+        <script src="Chart.js/Chart.js"></script>
+        <script src="Chart.js/Chart.min.js"></script>
+        <script src="js/mchart.js"></script>
+    
+
+</body>
+
+</html>
